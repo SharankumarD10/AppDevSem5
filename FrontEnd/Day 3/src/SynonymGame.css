@@ -1,0 +1,14 @@
+.contt
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 400px; /* Set a maximum width to limit how wide it can grow */
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.629); /* Adjust the alpha value (0.0 to 1.0) for translucency */
+    box-shadow: 0px 4px 10px rgb(85, 75, 3); /* Customize the box shadow */
+}

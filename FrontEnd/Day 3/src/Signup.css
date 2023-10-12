@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  /* src/components/Login.css */
+/* src/components/Login.css */
+/* src/components/Login.css */
+/* src/components/Login.css */
+/* src/components/Login.css */
+/* src/components/Login.css */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 400px; /* Set a maximum width to limit how wide it can grow */
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgba(151, 43, 43, 0.215); /* Adjust the alpha value (0.0 to 1.0) for translucency */
+    box-shadow: 0px 4px 10px rgb(255, 0, 0); /* Customize the box shadow */
+  }
+  
+  
+  
+  
+  
+  
+  
+  .box {
+    background-size: cover; /* To make the background image cover the entire box */
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 400px;
+    text-align: center;
+    color: #333; /* Set text color to contrast with the background */
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input[type="text"]:focus,
+input[type="password"]:focus {
+  outline: none;
+  border-color: #007bff;
+  background-color: #fff; /* Add this line to change the background color on focus */
+}

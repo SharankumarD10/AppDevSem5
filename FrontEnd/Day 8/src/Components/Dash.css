@@ -1,0 +1,11 @@
+/* Add these styles to your CSS */
+.mass {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    justify-content: center; /* Center content vertically */
+    height: 100vh; /* Optionally, make it take up the entire viewport height */
+    text-align: center; /* Center text horizontally */
+  }
+  
+  /* Rest of your CSS styles */
